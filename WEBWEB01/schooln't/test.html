@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #fff;
+        }
+        .background{
+            height: 100%; 
+            position: absolute;
+            left: 0%;
+            width: 100%; 
+            z-index: -1;
+        }
+        .title{
+            text-align: center; 
+            text-shadow: 2px 1px gray;
+            color: #000;
+            font-size: 200%;
+            
+        }
+    </style>
+</head>
+<body>
+    <div> <!--Background-->
+        <div style="top: 0%; background-color:#74d7ec;" class="background"></div>
+        <div style="top: 100%; background-color: #ffafc7;" class="background"></div>
+        <div style="top: 300%; background-color: #ffafc7;" class="background"></div>
+        <div style="top: 400%; background-color: #74d7ec" class="background"></div>
+    </div>
+    <div> <!--Text-->
+        <h1 class="title">test title</h1>
+    </div>
+</body>
+</html>
