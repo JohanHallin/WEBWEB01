@@ -1,0 +1,19 @@
+body{
+    background-color: #cdccf1;
+}
+p{
+    background-image: linear-gradient(#cdccf1, #8e8cf7);
+    width: 20%;
+    box-shadow: #000 2px 2px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.small{
+    font-size: 0.5em;
+}
+.large{
+    font-size: 1.5em;
+}
+.larger{
+    font-size: 2em;
+}
