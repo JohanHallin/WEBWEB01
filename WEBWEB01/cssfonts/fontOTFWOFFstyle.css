@@ -1,0 +1,25 @@
+@font-face {
+    font-family: ristretto;
+    src: url(ristretto.woff);
+}
+@font-face {
+    font-family: mayestica;
+    src: url(Mayestica.otf);
+}
+body{
+    background-color: #ccffaa;
+}
+div{
+    background-image: linear-gradient(#ccffaa, #9bff58);
+    box-shadow: 3px 3px #4c911e;
+    width: 25%;
+    margin: 2%;
+    padding: 1%;
+}
+.ristretto{
+    font-family: ristretto,sans-serif;
+    font-weight: 800;
+}
+.mayestica{
+    font-family: mayestica,sans-serif;
+}
