@@ -1,0 +1,22 @@
+@font-face {
+    font-family: myRoboto;
+    src: url(Roboto-Regular.ttf);
+}    
+@font-face {
+    font-family: Mickey;
+    src: url(Mickeys\ Merry\ Christmas.ttf);
+}
+body{
+    background-color: #c6ff86;
+}
+div{
+    width: 25%;
+    background-image: linear-gradient(#c6ff86, #a5f34b);
+    box-shadow: #61a810 3px 3px;
+}
+.mickey{
+    font-family: Mickey,sans-serif;
+}
+.roboto{
+    font-family: myRoboto,sans-serif;
+}
