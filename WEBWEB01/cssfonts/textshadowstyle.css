@@ -1,0 +1,22 @@
+div{
+    width: 40%;
+    background-image: linear-gradient(#92e4f8, #43b6d3);
+    box-shadow: black 3px 3px;
+    padding: 1%;
+    margin: 1%;
+}
+body{
+    background-color: #92e4f8;
+}
+.protestrevolution{
+    font-family: 'Protest Revolution', sans-serif;
+    text-shadow: 0 0 10px #00ff00;
+}
+.honk{
+    font-family: 'Honk', system-ui;
+    text-shadow: 4px 4px 4px #666666;
+}
+.dancingscript{
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 1px 1px 2px black, 0 0 20px blue, 0 0 7px darkblue;
+}
