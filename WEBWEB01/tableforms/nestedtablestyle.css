@@ -1,0 +1,17 @@
+body{
+    background-color: #d5fd8b;
+}
+table{
+    border: solid #000 2px;
+    border-collapse: collapse;
+}
+.nested{
+    border: solid #333 2px;
+    padding: 2px;
+}
+thead{
+    color: #f00;
+}
+tfoot{
+    color: #00f;
+}
