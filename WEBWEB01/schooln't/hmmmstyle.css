@@ -1,0 +1,16 @@
+body{
+    background-color: #fff;
+    height: 100%;
+}
+div{
+    height: 20%; 
+    position: absolute;
+    left: 0%;
+    width: 100%; 
+}
+.pink{
+    background-color: #ffafc7;
+}
+.blue{
+    background-color: #74d7ec;
+}
