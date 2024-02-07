@@ -1,0 +1,20 @@
+.olroman{
+    list-style-type: upper-roman;
+}
+ol,dl,ul{
+    border: solid #00f 2px;
+    width: 35%;
+}
+body{
+    background-color: #ebff90;
+}
+dl{
+    background-color: #fff;
+    color: #80f;
+}
+.styletypenone{
+    list-style-type: none;
+}
+ul{
+    list-style-type: square;
+}
