@@ -1,0 +1,24 @@
+img{
+    box-shadow: 4px 4px #000;
+    border: 2px;
+    border-style: solid;
+    margin: 10px;
+    float: left;
+}
+div{
+    position: absolute;
+    top: 210px;
+    left: 5px;
+}
+p{
+    text-align: center;
+    float: left;
+    background-color: #cfffaf;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 24px;
+    width: 160px;
+}
+body{
+    background-color: #cfffaf;
+}
