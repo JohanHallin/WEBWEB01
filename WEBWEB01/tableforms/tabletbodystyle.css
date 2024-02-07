@@ -1,0 +1,22 @@
+thead{
+    color:#e60000
+}
+tfoot{
+    color: #0000e6
+}
+table {
+    box-shadow: #000 5px 5px;
+    border-collapse: collapse;
+    border: 2px solid #0000e6;
+}
+th,
+td{
+    border: 1px solid #329938;
+    padding: 8px 10px;
+}
+td {
+    text-align: center;
+}
+body{
+    background-color: #dbffb2;
+}
