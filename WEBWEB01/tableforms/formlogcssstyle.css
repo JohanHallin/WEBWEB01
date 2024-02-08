@@ -1,0 +1,19 @@
+div{
+    margin: 2%;
+}
+input{
+    box-shadow: 1px 1px #eee;
+    position: absolute;
+    left: 10%;
+}
+label{
+    color: #00f;
+}
+body{
+    background-color: rgb(227, 255, 162);
+}
+.button{
+    position: absolute;
+    left: 35px;
+    box-shadow: #aaa 1px 1px;
+}
