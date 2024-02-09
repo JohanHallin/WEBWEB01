@@ -1,0 +1,20 @@
+body{
+    background-color: #dff385;
+}
+.group{
+    border: solid #000 1px;
+    height: 150px;
+    width: 400px;
+}
+input{
+    position: absolute;
+    left: 10%;
+}
+label,p{
+    padding-left: 5%;
+}
+.button{
+    left: 10px;
+    height: 25px;
+    width: 50px;
+}

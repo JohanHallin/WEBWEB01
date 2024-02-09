@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="formfieldsetstyle.css">
+</head>
+<body>
+    <h1>Form with fieldsets</h1>
+    <form method="post">
+        <div class="group" style="height: 120px;">
+            <p>Login</p>
+            <div>
+                <label for="username">Username:*</label>
+                <input type="text" name="username" required>
+            </div>
+            <div>
+                <label for="password">Password:*</label>
+                <input type="password" name="password" required>
+            </div>
+        </div>
+        <div class="group">
+            <p>Gender*</p>
+            <div>
+                <label for="gender">Male</label>
+                <input type="radio" name="gender" value="male" required>
+            </div>
+            <div>
+                <label for="gender">Female</label>
+                <input type="radio"  name="gender" value="female">
+            </div>
+            <div>
+                <label for="gender">Other/Nonbinary</label>
+                <input type="radio" name="gender" value="other">
+            </div>
+        </div>
+        <div class="group">
+            <p>Programming Skill</p>
+            <div>
+                <label for="java">Java</label>
+                <input type="checkbox" name="java" value="true">
+            </div>
+            <div>
+                <label for="c++">C++</label>
+                <input type="checkbox" name="c++" value="true">
+            </div>
+            <div>
+                <label for="c#">C#</label>
+                <input type="checkbox" name="c#" value="true">
+            </div>
+        </div>
+        <div class="group" style="height: 100px;">
+            <p>Fruit</p>
+            <div>
+                <label for="fruit">Choose a fruit:</label>
+                <select name="fruit">
+                    <option value="">Please select a fruit</option>
+                    <option value="banana">Banana</option>
+                    <option value="apple">Apple</option>
+                    <option value="orange">Orange</option>
+                    <option value="pear">Pear</option>
+                </select>
+            </div>
+        </div>
+        <div class="group">
+            <p>Comment</p>
+            <div>
+                <input name="comment" type="text" style="height: 80px; left: 30px;">
+            </div>
+        </div>
+        <input type="submit" value="login" class="button">
+    </form>
+</body>
+</html>
